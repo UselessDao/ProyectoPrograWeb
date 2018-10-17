@@ -27,7 +27,7 @@ if ($conn->query($sql) === TRUE) {
     echo "Usuario registrado correctamente";
     
 } else {
-    echo "Error: " . $sql . "<br>" . $conn->error;
+    echo "Error: " . $conn->error;
 }
 
 
