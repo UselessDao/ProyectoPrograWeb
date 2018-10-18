@@ -6,6 +6,9 @@
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
+<div class="header">
+  	<h2>Registro</h2>
+  </div>
 	
   <form method="post" action="registro.php">
   	<?php include('error.php'); ?>
