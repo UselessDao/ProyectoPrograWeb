@@ -10,7 +10,7 @@ $correo = $_REQUEST["correo"];
 $conn = new mysqli($servername, $username, $password, $dbname);
 
 if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
+    die("Conexion fallida: " . $conn->connect_error);
 }
 $sql = "SELECT * FROM usuarios";
 $result = $conn->query($sql);
